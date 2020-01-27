@@ -13,6 +13,9 @@
 
 /*------------------------------header */
 
+
+
+
 .navbar{
 line-height: 100px;
 position: fixed;
@@ -141,7 +144,7 @@ background-color: white;
 .ptext{
     color:#696666;
     text-align: center; 
-    font-family: "karla", "anton" ;
+    font-family: "karla", , sans-serif ;
     padding: 1px;
 }
 
@@ -176,15 +179,14 @@ background-color: white;
 }
 
 .table thead  {
-    font-family: 'Karla';
+    font-family: 'Karla', sans-serif;
     color:rgb(216, 216, 216);
     
 }
 
 .table tbody  {
-    font-family: Karla;
     color:rgb(216, 216, 216);
-    font-family:'karla';
+    font-family:'karla', sans-serif ;
     
 }
 
@@ -207,7 +209,7 @@ background-color: white;
     right : 10%;
     left: 50%;
     top: 250px;
-    font-family: 'karla';
+    font-family: 'karla', sans-serif;
     color:rgb(216, 216, 216);
     float: right;
     padding:10px 10px 10px 10px;
@@ -225,16 +227,41 @@ background-color: white;
     top: 250px;
     text-align:center;
     padding:10px 10px 10px 10px;
+    font-family: 'karla', sans-serif;
+    color:rgb(216, 216, 216);
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+container h2 {
+  color: rgb(216, 216, 216);
+  margin-bottom: 20px;
+  font-family: 'karla', sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 400px;
+    left:25%;
+    color: rgba(216, 216, 216, 0.5);
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+    
 
 /*------------------------------testimonials */
 .reviews{
     position: absolute;
     right: 20%;
     left: 20%;
-    top: 250px;
+    top: 300px;
+    height: 500px;
+    overflow: scroll;    
+    font-family: 'karla';
+    color:darkslategray;
+
 }
 
 /*------------------------------ [picutres for testimonials */

@@ -243,15 +243,18 @@ container h2 {
     top: 400px;
     left:25%;
     color: rgba(216, 216, 216, 0.5);
+}
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
     
 
 /*------------------------------testimonials */
+
 .reviews{
     position: absolute;
     right: 20%;
@@ -264,7 +267,7 @@ button[type="submit"] {
 
 }
 
-/*------------------------------ [picutres for testimonials */
+/*------------------------------ picutres for testimonials */
 
 .wedding{
     height: 75px;

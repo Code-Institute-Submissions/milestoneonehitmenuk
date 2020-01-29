@@ -192,12 +192,11 @@ background-color: white;
 
 /*------------------------------video */
 
-.carouselExampleIndicators {
+.container {
     position: absolute;
-    left: 10%;
-    right: 10%;
-    top: 250px;
-    
+    left:10px ;
+    right:10px ;
+    Top: 250 px;
     
 }
 
@@ -232,13 +231,13 @@ background-color: white;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-container h2 {
+.contactusposition h2 {
   color: rgb(216, 216, 216);
   margin-bottom: 20px;
   font-family: 'karla', sans-serif;
 }
 
-.container{
+.contactusposition{
     position: absolute;
     top: 400px;
     left:25%;

@@ -40,11 +40,7 @@
 }
 
 .gigs{
-    height: 600px;
-    width:100%;
-    background: url("images/gigs.jpg")no-repeat;
-    background-position: center;
-    background-size: 100%;
+   
     opacity: 0.8;
     
 }
@@ -153,22 +149,26 @@
 /*------------------------------gigs */
 
 .gigtable{  
-    background-color: rgba(255, 251, 251, 0.3);
-    font-family: 'impact', 'sans-serif';
+    background-color: rgba(255, 255, 255, 0.3);
+        
+}
+
+.gigh2{
+    font-family:Impact, sans-serif ;
     color:black;
-    
+    text-align: center;
 }
 
 .gigtext{
     font-family: 'Karla', sans-serif;
-    color:rgb(216, 216, 216);
+    color:black;
     text-align: center;
 }
+
 .gigbox{
     border-style: solid;
     border-width: 2px;
     background-color: rgba(255, 251, 251, 0.3);
-
 }
 
 /*------------------------------video */
@@ -221,10 +221,7 @@
 }
 
 .contactusposition{
-    position: absolute;
-    top: 400px;
-    left:%;
-    right:%;
+ 
     color: rgba(216, 216, 216, 0.5);
     background-color: rgba(0, 0, 0, 0.7)
 }

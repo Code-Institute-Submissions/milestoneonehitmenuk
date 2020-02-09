@@ -13,25 +13,20 @@
 
 /*------------------------------header */
 
+.header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 .navbar li a {
     font-family: 'impact','anton';
     color:#696666;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200,;
 }
 
 /*------------------------------imagess */
-
-.hitmenlogolittle{
-    background: url("images/Logo[13290].png")no-repeat;
-    height: 125px;
-    background-position: center;
-    background-size: 100px 100px;
-    background-color:white;
-    padding: 5px 5px 5px
-    
-}
-
 
 
 .home{
@@ -58,24 +53,6 @@
     height: 600px;
     width:100%;
     background: url("images/aboutus.jpg")no-repeat;
-    background-position: center;
-    background-size: 100%;
-    opacity: 0.8;
-}
-
-.testimonials{
-    height: 600px;
-    width:100%;
-    background: url("images/testimonials.jpg")no-repeat;
-    background-position: center;
-    background-size: 100%;
-    opacity: 0.8;
-}
-
-.video{
-    height: 600px;
-    width:100%;
-    background: url("images/media.jpg")no-repeat;
     background-position: center;
     background-size: 100%;
     opacity: 0.8;
@@ -117,116 +94,107 @@
     padding: 1px;
 }
 
-/*------------------------------home */
+.makerlink{
+    color:black;
+    text-align: center; 
+    font-family: 'karla', 'sans-serif' ;
+
+}
+
+/*------------------------------Index */
+
+.mybox{
+    height: 50%;
+    width: 100%;
+    padding: 1% 1% 1% 1%;
+}
+
+.button-box{
+    text-align: center;
+    height: 40%;
+}
 
 .btn{
-    position: absolute;
-    left: 40%;
-    right: 40%;
-    top: 250px;
     font-family: Impact,'Arial Narrow Bold', sans-serif;
     
 }
 
-.showreel{
-    position: absolute;
-    left: 10%;
-    top: 450px;
+.next-gig, h2, .gigtext{
+    font-family: 'karla', 'sans-serif';
+    color:rgb(216, 216, 216); 
+    text-align: center;
+    font-size:24px;
 }
 
-.next-gig h2{
-    top: 405px;
-    position: absolute;
-    Right: 10%;
+.giglink{
+    font-family: 'karla', 'sans-serif';
+    color:rgb(216, 216, 216); 
+    text-align: center;
+    font-size:24px;
+
 }
+
+.show-reel{
+    opacity: 0.8;   
+}
+
 .next-gig{
-    position: absolute;
-    Right: 10%;
-    top: 405px;
-    height: 448px;
-    width:410px;
-    background: url("images/next-gig.jpg")no-repeat; 
+    
     background-position: center;
+    height:100%;
     background-size: 100%;
+    padding:10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
     
 }
 
 
 /*------------------------------gigs */
 
-.gigtable{
-    position: absolute;
-    left: 20%;
-    right: 20%;
-    top: 200px;
-    padding:10px 10px 10px 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    
+.gigtable{  
+    background-color: rgba(255, 251, 251, 0.3);
+    font-family: 'impact', 'sans-serif';
+    color:black;
     
 }
 
-.table thead  {
+.gigtext{
     font-family: 'Karla', sans-serif;
     color:rgb(216, 216, 216);
-    
+    text-align: center;
 }
+.gigbox{
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(255, 251, 251, 0.3);
 
-.table tbody  {
-    color:rgb(216, 216, 216);
-    font-family:'karla', sans-serif ;
 }
 
 /*------------------------------video */
-
-.videos-youtube {
-    position: relative;
-    left:1% ;
-    right:1% ;
-    Top: 400 px;
-    height: 600px;
-    overflow: scroll;    
+.videotitle{
+    font-family: Impact, sans-serif ;
+    color: black;
 }
 
 /*------------------------------testimonials */
 
-.reviews{
-    position: absolute;
-    right: 5%;
-    left: 5%;
-    top: 200px;
-    height: 500px;
-    overflow: scroll;    
+.Testimonials{
+    font-family: Impact, sans-serif ;
+    color: black;
+}
+
+.ttext{
+    font-size: 18px;
     font-family: 'karla';
-    color:darkslategray;
-    background-color: black;
-    opacity: 0.6;
-
 }
 
-/*------------------------------ picutres for testimonials */
-
-.wedding{
-    height: 75px;
-    width:50%;
-    background: url("images/images-reviews/bridekiss.jpg")no-repeat; 
-    background-position: center;
-    background-size: 100%;
-}
-.pub{
-    height: 75px;
-    width:50%;
-    background: url("images/images-reviews/pubgig.jpg")no-repeat; 
-    background-position: center;
-    background-size: 100%;
+.testpadding{
+    padding:10px 10px 10px 10px;
 }
 
-.pub2{
-    height: 75px;
-    width:50%;
-    background: url("images/images-reviews/pubpartridge.jpg")no-repeat; 
-    background-position: center;
-    background-size: 100%;
-}
+
+
 
 /*------------------------------aboutus */
 .aboutustext {
@@ -235,8 +203,7 @@
     left: 45%;
     top: 120px;
     font-family: 'karla', sans-serif;
-    color:rgb(216, 216, 216);
-       
+    color:rgb(216, 216, 216);  
     padding:10px 10px 10px 10px;
     background-color: rgba(0, 0, 0, 0.8);
   
@@ -246,7 +213,7 @@
 /*------------------------------contactus */
 
 
-.contactusposition h2 {
+.contactusposition, h2 {
   color: rgb(216, 216, 216);
   margin-bottom: 20px;
   font-family: 'karla', sans-serif;

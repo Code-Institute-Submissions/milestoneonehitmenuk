@@ -6,6 +6,10 @@
   border: 0;
 }
 
+body, html {
+  height: 100%;
+}
+
 .h2{
     font-family: 'impact', 'anton';
     color:rgb(216, 216, 216);
@@ -34,30 +38,26 @@
     background: url("images/home.jpg")no-repeat top ;
     background-position: center;
     background-size: cover;
-    opacity: 0.8;
-    
+    opacity: 0.8;  
+}
+
+.aboutus{
+    height: 100px;
+    width:100%;
+    background: url("images/aboutus.jpg")no-repeat top  ;
+    background-size:cover;
+    background-position: center;
+   
 }
 
 .contactusbackground{
     width:100%;
-    height: auto;
+    height: 100%;
     background: url("images/contactus.jpg")no-repeat top;
     background-position: center;
     background-size: cover;
     opacity: 0.8;
 }
-
-.aboutus{
-    height: auto;
-    width:100%;
-    background: url("images/aboutus.jpg")no-repeat top  ;
-    background-size:;
-    background-position: center;
-    opacity: 0.8;
-}
-
-
-
 
 /*------------------------------footer */
 
@@ -165,9 +165,8 @@
 }
 
 .gigbox{
-    border-style: solid;
-    border-width: 2px;
     background-color: rgba(255, 251, 251, 0.3);
+    border-top: 2px solid black;
 }
 
 /*------------------------------video */
@@ -183,7 +182,7 @@
     color: black;
 }
 
-.ttext, important{
+.ttext,{
     font-size: 18px;
     font-family: 'karla','sans-serif' ;
 }
@@ -196,14 +195,20 @@
 
 
 /*------------------------------aboutus */
-.aboutustext {
-  
+
+.aboutustext {  
     font-family: 'karla', sans-serif;
     color:rgb(216, 216, 216);  
     padding:10px 10px 10px 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-  
+    background-color: rgba(0, 0, 0, 0.6); 
 }
+
+.aboutsuspadding{
+    padding: 30px 30px 30px 30px;
+    
+}
+
+
 
 
 /*------------------------------contactus */
@@ -246,6 +251,8 @@ button[type="submit"] {
 
 /*------------------------------media queries*/
 
+
+/*------------------------------phones*/
 @media (min-width: 50px) and (max-width: 600px){
 
 

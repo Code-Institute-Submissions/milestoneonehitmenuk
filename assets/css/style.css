@@ -7,7 +7,7 @@
 }
 
 .h2{
-    font-family: 'impact';
+    font-family: 'impact', 'anton';
     color:rgb(216, 216, 216);
 }
 
@@ -22,24 +22,23 @@
 .navbar, .nav-link {
     font-family: 'impact','anton';
     color:#696666;
-    font-size: 24px;
-    
+    font-size: 24px;    
 }
 
 /*------------------------------imagess */
 
 
 .home{
-    height: 600px;
-    width:100%;
-    background: url("images/home.jpg")no-repeat center center;
+     width:100%;
+    height: auto;
+    background: url("images/home.jpg")no-repeat top ;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     opacity: 0.8;
     
 }
 
-.background-properties{
+.contactusbackground{
     width:100%;
     height: auto;
     background: url("images/contactus.jpg")no-repeat top;
@@ -51,11 +50,13 @@
 .aboutus{
     height: auto;
     width:100%;
-    background: url("images/aboutus.jpg")no-repeat center center ;
+    background: url("images/aboutus.jpg")no-repeat top  ;
     background-size:;
     background-position: center;
     opacity: 0.8;
 }
+
+
 
 
 /*------------------------------footer */
@@ -95,20 +96,15 @@
 
 /*------------------------------Index */
 
-.mybox{
-    height: 50%;
-    width: 100%;
-    padding: 1% 1% 1% 1%;
-}
-
-.button-box{
-    text-align: center;
-    height: 40%;
-}
-
 .btn{
     font-family: Impact,'Arial Narrow Bold', sans-serif;
+    position: relative;
     
+}
+
+.btnpadding{
+    padding:20px 20px 20px 20px;
+
 }
 
 .next-gig, h2, .gigtext{
@@ -121,23 +117,31 @@
 .giglink{
     font-family: 'karla', 'sans-serif';
     color:rgb(216, 216, 216); 
-    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);;
     font-size:24px;
 
 }
 
-.show-reel{
-    opacity: 0.8;   
-}
 
-.next-gig{
-    
+.next-gig{    
     background-position: center;
     height:100%;
     background-size: 100%;
     padding:10px 10px 10px 10px;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
+    
+}
+
+.height-triangle {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    width:560; 
+    height:315;
     
 }
 
@@ -219,12 +223,16 @@
 
 .space{
    opacity: .0; 
-   height:10vh;
+   height:15vh;
 }
 .contactusposition{
     height: 40vh;
     color: rgba(216, 216, 216, 0.5);
     background-color: rgba(0, 0, 0, 0)
+}
+
+.form-control{
+     padding: 10px 10px 5px 5px;
 }
 
 
@@ -238,18 +246,33 @@ button[type="submit"] {
 
 /*------------------------------media queries*/
 
-@media (min-width: 200px) and (max-width: 600px){
+@media (min-width: 50px) and (max-width: 600px){
 
 
 .space{
    opacity: .0; 
-   height:5vh;
+   height:10vh;
 }
 .contactusposition{
-    height: 30vh;
+    height: 55vh;
     color: rgba(216, 216, 216, 0.5);
     background-color: rgba(0, 0, 0, 0)
+
 }
+
+.mobile-background{
+    background-image:url("images/white-triangle-png-15.png")no-repeat top; 
+ 
+
+}
+
+
+.navbar-brand
+  {
+     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 

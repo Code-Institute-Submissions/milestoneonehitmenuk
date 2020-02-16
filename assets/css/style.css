@@ -18,7 +18,7 @@ h1{
 
 /*------------------------------header */
 
-.header{
+header{
     margin: 0;
     padding: 0;
     border: 0;
@@ -44,27 +44,36 @@ h1{
 
 .aboutus{
     height: 100vh;
-    
     background: url("images/aboutus.jpg")no-repeat center center ;
-    
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -O-background-size:cover;
     background-size:cover;
+
+        display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
    
    
 }
 
 .contactusbackground{
-    width:100%;
-    height: 100vh;
+    
+    height: 500px;
     background: url("images/contactus.jpg")no-repeat top;
     background-position: center;
     opacity: 0.8;
-      -webkit-background-size:cover;
+    -webkit-background-size:cover;
     -moz-background-size:cover;
     -O-background-size:cover;
     background-size:cover;
+
+    
+
+    
+    
 }
 
 /*------------------------------footer */
@@ -83,7 +92,7 @@ h1{
     margin: 1%;
     padding: 1%;
     color:#696666;
-    ;
+    
 }
 
 .ptext{
@@ -111,36 +120,27 @@ h1{
 }
 
 .btnpadding{
-    padding:20px 20px 20px 20px;
+    padding:30px 20px 50px 20px;
 
 }
 
-.next-gig, h2, .gigtext{
+.next-gig {
     font-family: 'karla', 'sans-serif';
-    color:rgb(216, 216, 216); 
+    color:black;
+    text-align: middle;
     text-align: center;
     font-size:24px;
 }
 
 .giglink{
     font-family: 'karla', 'sans-serif';
-    color:rgb(216, 216, 216); 
+    color:slategray; 
     display: inline-block;
     position: relative;
     left: 50%;
     transform: translateX(-50%);;
     font-size:24px;
 }
-
-.next-gig{    
-    background-position: center;
-    height:100%;
-    background-size: contain;
-    padding:10px 10px 10px 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-    text-align: center;    
-}
-
 
 .height-triangle {
     background: url("images/white-triangle-png-15.png");
@@ -149,25 +149,27 @@ h1{
     background-position:center;
 }
 
-s
+
 /*------------------------------gigs */
 
 .gigtext{
     font-family: 'Karla', sans-serif;
-    color:black;
+    color:black;   
     text-align: center;
+    font-size: 18px;
+    vertical-align: baseline;
+    padding: 3px 3px 3px 3px;
 }
 
 .gigbox{
-    background-color: rgba(255, 251, 251, 0.3);
     border-top: 2px solid black;
 }
 
-/*------------------------------video */
-.videotitle{
-    font-family: Impact, sans-serif ;
-    color: black;
+.gigboxlast{
+    border-bottom: 2px solid black;
 }
+/*------------------------------video */
+
 
 .video-row-padding{
     padding: 10px 10px 10px 10px;
@@ -202,7 +204,7 @@ s
 }
 
 .aboutsuspadding{
-    padding: 30px 30px 30px 30px;
+    padding: 90px 30px 90px 30px;
     
 }
 
@@ -214,31 +216,22 @@ s
     color: black;
 }
 
-.contactusposition, h2 {
-  color: black;
-  margin-bottom: 20px;
-  font-family: 'impact', sans-serif;
-  padding: 10px 10px 5px 5px;
+.contactusposition{
+    color: black;
+    margin-bottom: 20px;
+    padding: 120px 10px 100px 5px;
 }
 
-.space{
-   opacity: .0; 
-   height:15vh;
-}
-.contactusposition{
-    height: 40vh;
+
+.contactusposition{    
     color: rgba(216, 216, 216, 0.5);
     background-color: rgba(0, 0, 0, 0)
-}
-
-.form-control{
-     padding: 10px 10px 5px 5px;
 }
 
 
 
 button[type="submit"] {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: #fafafa;
     background-color: darkred;
@@ -251,20 +244,24 @@ button[type="submit"] {
 @media (min-width: 50px) and (max-width: 767px){
 
 
-.space{
-   opacity: .0; 
-   height:10vh;
-}
-.contactusposition{
-    height: 55vh;
-    color: rgba(216, 216, 216, 0.5);
-    background-color: rgba(0, 0, 0, 0)
+.form-control{
+    opacity: .8;
+    font-family: 'karla', sans-serif;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
+
+.contactusposition{
+    padding: 120px 25px 100px 25px;
+}
+
+
 
 .navbar-brand
   {
-     position: relative;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
   }

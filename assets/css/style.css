@@ -34,45 +34,45 @@ header{
 
 
 .home{
-     width:100%;
-    height: auto;
+    
+    height: 60vh;
+    width: 100%;
+    position: relative;
     background: url("images/home.jpg")no-repeat top ;
     background-position: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -O-background-size:cover;
     background-size: cover;
-    opacity: 0.8;  
+      
 }
 
 .aboutus{
-    height: 100vh;
+    height: 60vh;
+    width: 100%;
+    position: relative;
     background: url("images/aboutus.jpg")no-repeat center center ;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -O-background-size:cover;
     background-size:cover;
 
-        display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-   
+    
    
 }
 
 .contactusbackground{
     
-    height: 500px;
+    height: 60vh;
+    width: 100%;
+    position: relative;
     background: url("images/contactus.jpg")no-repeat top;
     background-position: center;
-    opacity: 0.8;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -O-background-size:cover;
     background-size:cover;
-
-    
-
-    
+  
     
 }
 
@@ -126,7 +126,7 @@ header{
 
 .next-gig {
     font-family: 'karla', 'sans-serif';
-    color:black;
+    color:rgb(216, 216, 216); 
     text-align: middle;
     text-align: center;
     font-size:24px;
@@ -138,16 +138,10 @@ header{
     display: inline-block;
     position: relative;
     left: 50%;
-    transform: translateX(-50%);;
+    transform: translateX(-50%);
     font-size:24px;
 }
 
-.height-triangle {
-    background: url("images/white-triangle-png-15.png");
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
-}
 
 
 /*------------------------------gigs */
@@ -157,7 +151,6 @@ header{
     color:black;   
     text-align: center;
     font-size: 18px;
-    vertical-align: baseline;
     padding: 3px 3px 3px 3px;
 }
 

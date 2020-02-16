@@ -119,9 +119,9 @@ header{
 
 }
 .next-gigh2{ 
-font-family: 'impact', 'anton';
+    font-family: 'impact', 'anton';
     color:rgb(216, 216, 216); 
-    text-align: middle;
+    
     text-align: center;
     font-size:24px;
 }
@@ -129,7 +129,6 @@ font-family: 'impact', 'anton';
 .next-gig {
     font-family: 'karla', 'sans-serif';
     color:rgb(216, 216, 216); 
-    text-align: middle;
     text-align: center;
     font-size:2vw;
 }
@@ -144,6 +143,12 @@ font-family: 'impact', 'anton';
     font-size:2vw;
 }
 
+.hometextboxbg{
+    font-family: 'karla', sans-serif;
+    color:rgb(216, 216, 216);  
+    padding:10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
 
 .rowheightindex{
     height: 20vh;
@@ -258,45 +263,47 @@ button[type="submit"] {
 
 
 
-.navbar-brand
-  {
+.navbar-brand  {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
   }
 
 
-.homesmall{
-    
+.homesmall{    
     height: 30vh;
-    width: auto%;
+    width: auto;
     position: relative;
     background: url("images/home.jpg")no-repeat;
     background-position: center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -O-background-size:cover;
-    background-size: cover;
-      
+    background-size: cover;      
 }
 
-.home{    
-    height: 60vh;
-    width: 100%;
-    position: relative;
-    background: ;
-    background-position: center bottom;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -O-background-size:cover;
-    background-size: cover;
+.homeheight{
+    height: 65vh;
+
 }
 
-.aboutustext {  
+
+.hometextbox {  
     font-family: 'karla', sans-serif;
     color:rgb(216, 216, 216);  
-    padding:10px 10px 10px 10px;
     background-color: rgba(0, 0, 0, 1.0); 
+}
+
+.next-gig {
+    font-family: 'karla', 'sans-serif';
+    color:rgb(216, 216, 216); 
+    text-align: center;
+    font-size:12px;
+}
+
+.btnpadding{
+    padding:2vh 5px 13vh 5px;
+
 }
 
 }

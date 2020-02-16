@@ -33,8 +33,7 @@ header{
 /*------------------------------imagess */
 
 
-.home{
-    
+.home{    
     height: 60vh;
     width: 100%;
     position: relative;
@@ -55,14 +54,10 @@ header{
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -O-background-size:cover;
-    background-size:cover;
-
-    
-   
+    background-size:cover;    
 }
 
-.contactusbackground{
-    
+.contactusbackground{    
     height: 60vh;
     width: 100%;
     position: relative;
@@ -120,8 +115,15 @@ header{
 }
 
 .btnpadding{
-    padding:30px 20px 50px 20px;
+    padding:30px 20px 20vh 20px;
 
+}
+.next-gigh2{ 
+font-family: 'impact', 'anton';
+    color:rgb(216, 216, 216); 
+    text-align: middle;
+    text-align: center;
+    font-size:24px;
 }
 
 .next-gig {
@@ -129,7 +131,7 @@ header{
     color:rgb(216, 216, 216); 
     text-align: middle;
     text-align: center;
-    font-size:24px;
+    font-size:2vw;
 }
 
 .giglink{
@@ -139,9 +141,13 @@ header{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-size:24px;
+    font-size:2vw;
 }
 
+
+.rowheightindex{
+    height: 20vh;
+}
 
 
 /*------------------------------gigs */
@@ -197,7 +203,7 @@ header{
 }
 
 .aboutsuspadding{
-    padding: 90px 30px 90px 30px;
+    padding: 40px 30px 40px 30px;
     
 }
 
@@ -258,8 +264,39 @@ button[type="submit"] {
     left: 50%;
     transform: translateX(-50%);
   }
+
+
+.homesmall{
+    
+    height: 30vh;
+    width: auto%;
+    position: relative;
+    background: url("images/home.jpg")no-repeat;
+    background-position: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -O-background-size:cover;
+    background-size: cover;
+      
 }
 
+.home{    
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background: ;
+    background-position: center bottom;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -O-background-size:cover;
+    background-size: cover;
+}
 
+.aboutustext {  
+    font-family: 'karla', sans-serif;
+    color:rgb(216, 216, 216);  
+    padding:10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 1.0); 
+}
 
-
+}

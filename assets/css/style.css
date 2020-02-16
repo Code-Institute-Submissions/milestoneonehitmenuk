@@ -38,7 +38,7 @@ header{
     width: 100%;
     position: relative;
     background: url("images/home.jpg")no-repeat top ;
-    background-position: center;
+    background-position: top center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -O-background-size:cover;
@@ -115,7 +115,7 @@ header{
 }
 
 .btnpadding{
-    padding:30px 20px 20vh 20px;
+    padding:20px 20px 15vh 20px;
 
 }
 .next-gigh2{ 
@@ -245,7 +245,7 @@ button[type="submit"] {
 
 
 /*------------------------------phones*/
-@media (min-width: 50px) and (max-width: 767px){
+@media (min-width: 50px) and (max-width: 770px){
 
 
 .form-control{
@@ -275,7 +275,7 @@ button[type="submit"] {
     width: auto;
     position: relative;
     background: url("images/home.jpg")no-repeat;
-    background-position: center;
+    background-position:top center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -O-background-size:cover;
@@ -283,7 +283,7 @@ button[type="submit"] {
 }
 
 .homeheight{
-    height: 65vh;
+    height: 75vh;
 
 }
 
@@ -298,12 +298,45 @@ button[type="submit"] {
     font-family: 'karla', 'sans-serif';
     color:rgb(216, 216, 216); 
     text-align: center;
-    font-size:12px;
+    font-size:20px;
 }
 
 .btnpadding{
     padding:2vh 5px 13vh 5px;
 
 }
+
+}
+
+/*------------------------------to keep it tidy*/
+@media (min-width: 572px) and (max-width: 890px){
+
+.home{    
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background: url("images/home.jpg")no-repeat top ;
+    background-position: top center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -O-background-size:cover;
+    background-size: cover;      
+}
+
+
+.rowheightindex{
+    height: 30vh;
+}
+
+.btnpadding{
+    padding:20px 20px 30vh 20px;
+
+}
+
+.next-gig {
+    font-family: 'karla', 'sans-serif';
+    color:rgb(216, 216, 216); 
+    text-align: center;
+    font-size:3vw;
 
 }

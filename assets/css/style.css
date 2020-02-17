@@ -111,6 +111,7 @@ header{
 .btn{
     font-family: Impact,'Arial Narrow Bold', sans-serif;
     position: relative;
+    opacity: .6;
     
 }
 
